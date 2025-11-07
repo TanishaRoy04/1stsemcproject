@@ -19,7 +19,6 @@ Output 3:
 
 */
 
-#include <stdio.h>
 
 int main() {
     int n, target;
@@ -32,7 +31,8 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &nums[i]);
     }
-    
+    #include <stdio.h>
+
     // Read target value
     scanf("%d", &target);
     
